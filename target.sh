@@ -75,7 +75,7 @@ mkdir -p "${FILE%/*}" && touch "$FILE.csv"
 
 # if only one request do it in one second (change units to seconds)
 TOTAL=$(expr "$DURATION" '*' "$RATE")
-if [[ "$TOTAL" -eq 1 ]]; then
+if [ "$TOTAL" -eq 1 ]; then
   UNITS="s"
 fi
 

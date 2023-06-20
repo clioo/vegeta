@@ -1,3 +1,35 @@
 *.csv
 dummy-api/*
+
+# Ignore all results
+/results/*
+
+# Ignore all system files
 .DS_Store
+Thumbs.db
+
+# Ignore all compiled files
+*.o
+*.lo
+*.la
+# etc...
+
+# Ignore all package files
+*.dirstamp
+*.dep
+*.pc
+
+# Ignore all log files
+*.log
+
+# Ignore vegeta binary
+/vegeta
+
+# Ignore other possible sensitive files
+*.pem
+*.key
+
+# Ignore IDE and editor files
+.idea/
+.vscode/
+*.sublime-workspace
