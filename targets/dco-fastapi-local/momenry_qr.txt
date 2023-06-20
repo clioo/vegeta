@@ -1,0 +1,1 @@
+GET https://stageapi.momenry.com/api/v1/mmr/momenries-from-qr/?b64url=aHR0cHM6Ly9tb21lbnJ5LnBhZ2UubGluay92aWV3LW1vbWVucnkvP2lkPTQyNjY3JkFSPXRydWU=

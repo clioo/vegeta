@@ -1,0 +1,3 @@
+POST https://uscldarkwapyq01.azurewebsites.net/v2/amm/trucks/schedule-gantt
+Content-Type: application/json
+@jsons/prod-trucks-schedule.json

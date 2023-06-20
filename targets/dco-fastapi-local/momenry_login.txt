@@ -1,0 +1,3 @@
+POST https://api.momenry.com/api/v1/user/token/
+Content-Type: application/json
+@jsons/momenry_login.json
